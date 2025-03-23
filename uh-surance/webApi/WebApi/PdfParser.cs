@@ -17,7 +17,7 @@ namespace WebApi
         private string _filePath = "";
         private string InsurancePath = "";
 
-        public PdfParser(string filePath, string documentType )
+        public PdfParser(string filePath, string documentType)
         {
             if (documentType == "Insurance")
             {
@@ -31,31 +31,31 @@ namespace WebApi
         }
 
         public string ExtractRawText()
-{
-    string pdfPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Insurance.pdf");
-
-    if (!File.Exists(pdfPath))
-    {
-        throw new FileNotFoundException($"PDF file not found at path: {pdfPath}");
-    }
-
-    var extractedText = new System.Text.StringBuilder();
-
-    using (var document = PdfDocument.Open(pdfPath))
-    {
-        for (var i = 0; i < document.NumberOfPages; i++)
         {
-            var page = document.GetPage(i + 1);
+            string pdfPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Insurance.pdf");
 
-            var text = page.Text;
-            extractedText.AppendLine(text);
+            if (!File.Exists(pdfPath))
+            {
+                throw new FileNotFoundException($"PDF file not found at path: {pdfPath}");
+            }
 
-            extractedText.AppendLine($"--- Page {i + 1} ---");
+            var extractedText = new System.Text.StringBuilder();
+
+            using (var document = PdfDocument.Open(pdfPath))
+            {
+                for (var i = 0; i < document.NumberOfPages; i++)
+                {
+                    var page = document.GetPage(i + 1);
+
+                    var text = page.Text;
+                    extractedText.AppendLine(text);
+
+                    extractedText.AppendLine($"--- Page {i + 1} ---");
+                }
+            }
+
+            return extractedText.ToString();
         }
-    }
-
-    return extractedText.ToString();
-}
 
         public string ExtractTextFromPdf()
         {
@@ -74,7 +74,7 @@ namespace WebApi
                     var nnOptions = new NearestNeighbourWordExtractor.NearestNeighbourWordExtractorOptions()
                     {
                         FilterPivot = letter => !string.IsNullOrWhiteSpace(letter.Value) &&
-                                               !punctuation.Contains(letter.Value),
+                                                !punctuation.Contains(letter.Value),
 
                         Filter = (pivot, candidate) =>
                         {
@@ -98,9 +98,11 @@ namespace WebApi
                     {
                         extractedText.Append(word.Text).Append(" ");
                     }
+
                     extractedText.AppendLine();
                 }
             }
+
             return extractedText.ToString();
         }
 
@@ -135,7 +137,8 @@ namespace WebApi
                             int k = j + 1;
 
                             while (k < words.Count && valueWordCount < 5 &&
-                                  !words[k].Text.EndsWith(":") && !words[k].Text.EndsWith("-") && !words[k].Text.EndsWith("="))
+                                   !words[k].Text.EndsWith(":") && !words[k].Text.EndsWith("-") &&
+                                   !words[k].Text.EndsWith("="))
                             {
                                 valueBuilder.Append(words[k].Text).Append(" ");
                                 valueWordCount++;
@@ -146,7 +149,8 @@ namespace WebApi
 
                             if (!string.IsNullOrWhiteSpace(label) && !string.IsNullOrWhiteSpace(value))
                             {
-                                label = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(label.ToLower());
+                                label = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(
+                                    label.ToLower());
 
                                 if (!keyValuePairs.ContainsKey(label))
                                 {
@@ -163,25 +167,47 @@ namespace WebApi
             return keyValuePairs;
         }
 
+        // Updated regex patterns to include policy coverage and accepted coverage fields
         private void IdentifyCommonInsuranceFields(string pageText, Dictionary<string, string> keyValuePairs)
         {
             var patterns = new Dictionary<string, string>
             {
-                //Update this with all the policies we need to update;
-                { "Policy Number", @"Policy\s*(Number|No|#)[\s:\-]*([A-Z0-9\-]{5,20})" },
+                // Existing patterns
+                { "Policy Type", @"Policy\s*(Number|No|#)[\s:\-]*([A-Z0-9\-]{5,20})" },
                 { "Policy Period", @"Policy\s*Period[\s:\-]*(.*?)(?=\n)" },
-                { "Insured Name", @"(Named\s*Insured|Insured)[\s:\-]*(.*?)(?=\n)" },
+                { "Insured Name", @"(Named\s*Insured|Insured|Applicant Name)[\s:\-]*(.*?)(?=\n)" },
                 { "Premium Amount", @"(Total\s*Premium|Premium)[\s:\-]*\$?([\d,]+\.?\d*)" },
                 { "Coverage Limit", @"(Coverage\s*Limit|Limit of Liability)[\s:\-]*\$?([\d,]+\.?\d*)" },
-                { "Deductible", @"Deductible[\s:\-]*\$?([\d,]+\.?\d*)" }
+                { "Deductible", @"(Policy\s*Deductible|Deductible)[\s:\-]*\$?([\d,]+\.?\d*)" },
+
+                // New patterns for policy coverage
+                { "Personal Property", @"Personal\s*Property\s*\(Coverage\s*B\)[\s:\-]*\$?([\d,]+)" },
+                { "Personal Liability", @"Personal\s*Liability\s*\(Coverage\s*L\)[\s:\-]*\$?([\d,]+)" },
+                { "Medical Payments", @"Medical\s*Payments\s*\(Coverage\s*M\)[\s:\-]*\$?([\d,]+)" },
+                { "Credit Card", @"Credit\s*Card\s*\/\s*Bank\s*Card[\s:\-]*\$?([\d,]+)" },
+                { "Damage to Property", @"Damage\s*to\s*Property\s*of\s*Others[\s:\-]*\$?([\d,]+)" },
+                { "Loss of Use", @"Loss\s*of\s*Use[\s:\-]*\$?([\d,]+)" },
+
+                // Loss Settlement Option
+                {
+                    "Loss Settlement Option", @"Loss\s*Settlement\s*Option\s*-\s*Personal\s*Property[\s:\-]*(.*?)(?=\n)"
+                },
+
+                // Accepted Options patterns
+                { "Jewelry and Furs", @"Jewelry\s*and\s*Furs[\s:\-]*\$?([\d,]+)\s*included" },
+                {
+                    "Silver Goldware Theft", @"Silver\/Goldware\s*Theft\s*-\s*Option\s*SG[\s:\-]*\$?([\d,]+)\s*included"
+                },
+                { "Business Property", @"Business\s*Property\s*-\s*Option\s*BP[\s:\-]*\$?([\d,]+)\s*included" },
+                { "Firearms", @"Firearms\s*-\s*Option\s*FA[\s:\-]*\$?([\d,]+)\s*included" }
             };
 
             foreach (var pattern in patterns)
             {
                 var match = Regex.Match(pageText, pattern.Value, RegexOptions.IgnoreCase);
-                if (match.Success && match.Groups.Count > 2)
+                if (match.Success && match.Groups.Count > 1)
                 {
-                    string value = match.Groups[2].Value.Trim();
+                    string value = match.Groups[1].Value.Trim();
                     if (!string.IsNullOrWhiteSpace(value) && !keyValuePairs.ContainsKey(pattern.Key))
                     {
                         keyValuePairs.Add(pattern.Key, value);
@@ -194,7 +220,7 @@ namespace WebApi
         {
             var policyInfo = new Dictionary<string, dynamic>();
             string fullText = ExtractTextFromPdf();
-
+            IdentifyCommonInsuranceFields(fullText, policyInfo);
             return policyInfo;
         }
     }
