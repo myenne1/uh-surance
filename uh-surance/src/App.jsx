@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/App.css'
 import WelcomePage from './pages/WelcomePage'
-import SecondPage from './pages/SecondPage'
+import SecondPage from '../webApi/WebApi/bin/SecondPage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
