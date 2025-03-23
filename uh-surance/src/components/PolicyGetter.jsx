@@ -2,9 +2,7 @@ import React, {useState, useRef} from 'react'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from 'react-router';
 
-
-
-export default function DocumentGetter() {
+export default function PolicyGetter() {
     const navigate = useNavigate()
     const [file, setFile] = useState(null)
     const [fileUploaded, setFileUploaded] = useState(false)
@@ -44,7 +42,7 @@ export default function DocumentGetter() {
         } catch (error) {
           console.error('Error during upload:', error);
         }
-        navigate("/second-page")
+        navigate("/summarization-page")
     };
 
     return (
