@@ -1,8 +1,0 @@
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.csproj.AssemblyReference.cache
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.AssemblyInfoInputs.cache
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.AssemblyInfo.cs
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.csproj.CoreCompileInputs.cache
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\marco\source\repos\MarcoVinicioGM\theNthTime\WebApi\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json

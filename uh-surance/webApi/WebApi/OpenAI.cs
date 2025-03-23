@@ -36,9 +36,8 @@ Summarize in plain language that a non-expert would understand:";
             if (!File.Exists(filePath))
                 throw new FileNotFoundException($"No policy found at: {filePath}");
 
-            // Use the PdfParser to extract text
-            var pdfParser = new PdfParser(filePath);
-            string policyText = pdfParser.ExtractTextFromPdf();
+            var pdfParser = new PdfParser(filePath, "Insurance");
+            string policyText = pdfParser.ExtractRawText();
 
             if (string.IsNullOrWhiteSpace(policyText))
             {
@@ -50,7 +49,6 @@ Summarize in plain language that a non-expert would understand:";
                 apiKey: _apiKey
             );
 
-            // Configure chat completion options
             var completionOptions = new ChatCompletionOptions
             {
                 MaxOutputTokenCount = 1000,
