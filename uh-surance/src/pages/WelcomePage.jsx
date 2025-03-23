@@ -10,7 +10,7 @@ export default function WelcomePage() {
                 Uh-Surance
             </header>
             
-            <main className="flex-grow-1 d-flex align-items-start justify-content-center flex-column" style={{ paddingTop: "10vh" }}>
+            <main className="flex-grow-1 d-flex align-items-start justify-content-center flex-column" style={{ paddingTop: "5vh" }}>
                 <div className="container text-center">
                     <div className="row justify-content-center">
                         <section className="col-md-8 bg-light p-4 rounded shadow">
