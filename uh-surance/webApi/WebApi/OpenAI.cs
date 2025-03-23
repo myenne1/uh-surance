@@ -26,7 +26,7 @@ Summarize in plain language that a non-expert would understand:";
 
         public PolicySummarizerService(IConfiguration configuration)
         {
-            _apiKey = configuration["OpenAIKey"]
+            _apiKey = configuration["OpenAIKey:ApiKey"]
                 ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY")
                 ?? throw new ArgumentNullException("OpenAI API key is missing");
         }
