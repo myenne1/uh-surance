@@ -216,9 +216,9 @@ namespace WebApi
             }
         }
 
-        public Dictionary<string, dynamic> ExtractPolicyInfo()
+        public Dictionary<string, string> ExtractPolicyInfo()
         {
-            var policyInfo = new Dictionary<string, dynamic>();
+            var policyInfo = new Dictionary<string, string>();
             string fullText = ExtractTextFromPdf();
             IdentifyCommonInsuranceFields(fullText, policyInfo);
             return policyInfo;
