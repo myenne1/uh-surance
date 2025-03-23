@@ -4,10 +4,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using WebApi;
 using System.Threading.Tasks;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddScoped<IPolicySummarizer, PolicySummarizerService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -22,8 +22,12 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
-
-// Enable Swagger in ALL environments, not just Development
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "Uploads")),
+    RequestPath = "/uploads"
+});
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Policy Management API v1"));
 
