@@ -112,11 +112,11 @@ export default function DashboardPage() {
                                     </div>
                                     <div className="d-flex justify-content-between mb-3">
                                         <span>Monthly Premium:</span>
-                                        <span className="fw-bold">$209</span>
+                                        <span className="fw-bold">$160</span>
                                     </div>
                                     <div className="d-flex justify-content-between">
                                         <span>Total Coverage:</span>
-                                        <span className="fw-bold">$400,000</span>
+                                        <span className="fw-bold">$280,000</span>
                                     </div>
                                 </div>
                                 <div className="card-footer bg-white">

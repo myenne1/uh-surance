@@ -30,16 +30,23 @@ namespace WebApi
             }
         }
 
-        public string ExtractRawText()
-        {
-            string pdfPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Insurance.pdf");
+       public string ExtractRawText()
+{
+    // Option 1: Look for the file in multiple locations
+    string[] possiblePaths = new[] {
+        Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Insurance.pdf"),
+        Path.Combine(Directory.GetCurrentDirectory(), "Insurance.pdf"),
+        InsurancePath // Use the path passed to the constructor if available
+    };
+    
+    string pdfPath = possiblePaths.FirstOrDefault(File.Exists);
+    
+    if (pdfPath == null)
+    {
+        throw new FileNotFoundException($"PDF file not found at any of the tried paths: {string.Join(", ", possiblePaths)}");
+    }
 
-            if (!File.Exists(pdfPath))
-            {
-                throw new FileNotFoundException($"PDF file not found at path: {pdfPath}");
-            }
-
-            var extractedText = new System.Text.StringBuilder();
+    var extractedText = new System.Text.StringBuilder();
 
             using (var document = PdfDocument.Open(pdfPath))
             {

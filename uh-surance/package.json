@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "http://:5280",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +16,7 @@
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
     "react-dropzone": "^14.3.8",
+    "react-icons": "^5.5.0",
     "react-images-uploading": "^3.1.7",
     "react-router": "^7.4.0",
     "react-router-dom": "^7.4.0"

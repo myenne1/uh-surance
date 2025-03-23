@@ -28,35 +28,23 @@ export default function PhotosGetter() {
     };
 
     const handleFileUpload = async () => {
-        console.log("Sending files to backend");
-        const postFormData = new FormData();
-        
-        files.forEach((file, index) => {
-            postFormData.append(`file${index}`, file);
+        const response = await fetch('/api/policies/insurance-fields/2066f1b3-c096-4d18-84e2-9a8a8365ac76', {
+            method: 'GET',
         });
-        
-        try {
-            const response = await fetch('YOUR_UPLOAD_ENDPOINT', {
-                method: 'POST',
-                body: postFormData,
+  
+        if (response.ok) {
+            const data2 = await response.json();
+            console.log('Upload successful:', data2);
+            navigate("/personal-items-page", { 
+                state: { 
+                    receivedData: data2
+                }
             });
-      
-            if (response.ok) {
-                const data = await response.json();
-                console.log('Upload successful:', data);
-                navigate("/personal-items-page", { 
-                    state: { 
-                        uploadedData: data 
-                    }
-                });
-            } else {
-                console.error('Upload failed:', response.statusText);
-            }
-        } catch (error) {
-            console.error('Error during upload:', error);
+        } else {
+            console.error('Upload failed:', response.statusText);
         }
-        navigate("/personal-items-page")
     };
+
     return (
         <div>
             <input 
@@ -81,5 +69,4 @@ export default function PhotosGetter() {
             )}
         </div>
     );
-    
 }

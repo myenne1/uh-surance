@@ -34,7 +34,7 @@ export default function ValuablesGetter() {
         files.forEach((file, index) => {
             postFormData.append(`file${index}`, file);
         });
-            const response = await fetch('YOUR_UPLOAD_ENDPOINT', {
+            const response = await fetch('/api/insuranced/electronics/upload', {
                 method: 'POST',
                 body: postFormData,
             });

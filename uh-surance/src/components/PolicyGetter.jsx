@@ -28,7 +28,7 @@ export default function PolicyGetter() {
         formData.append('file', file);
       
         try {
-          const response = await fetch('YOUR_UPLOAD_ENDPOINT', {
+          const response = await fetch('/api/policies/upload', {
             method: 'POST',
             body: formData,
           });
@@ -36,13 +36,17 @@ export default function PolicyGetter() {
           if (response.ok) {
             const data = await response.json();
             console.log('Upload successful:', data);
-          } else {
-            console.error('Upload failed:', response.statusText);
-          }
-        } catch (error) {
-          console.error('Error during upload:', error);
-        }
-        navigate("/summarization-page")
+            navigate("/summarization-page", { 
+              state: { 
+                  uploadedData: data 
+              }
+          });
+      } else {
+          console.error('Upload failed:', response.statusText);
+      }
+  } catch (error) {
+      console.error('Error during upload:', error);
+  }
     };
 
     return (
