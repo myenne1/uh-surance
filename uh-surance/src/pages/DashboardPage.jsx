@@ -139,9 +139,12 @@ export default function DashboardPage() {
                                 <div className="card-body">
                                     <p className="mb-3">Take photos of your valuable items to document them for insurance purposes.</p>
                                     <div className="bg-light p-3 rounded mb-3">
-                                        <PhotosGetter/>
+                                        <input 
+                                            type='file' 
+                                            multiple 
+                                            accept="image/*"
+                                        />
                                     </div>
-                                    
                                     <h6 className="mt-4 mb-3">Recently Added Photos</h6>
                                     <div className="row g-3">
                                         {[1, 2, 3, 4, 5, 6].map((item) => (
@@ -164,42 +167,11 @@ export default function DashboardPage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
-                            <div className="card shadow-sm mb-4">
-                                <div className="card-header bg-light">
-                                    <h5 className="m-0">Organizing Tips</h5>
-                                </div>
-                                <div className="card-body">
-                                    <ul className="list-group list-group-flush">
-                                        <li className="list-group-item px-0">Group photos by room or category</li>
-                                        <li className="list-group-item px-0">Include receipts when possible</li>
-                                        <li className="list-group-item px-0">Add descriptions to your photos</li>
-                                        <li className="list-group-item px-0">Update photos every 6 months</li>
-                                    </ul>
-                                </div>
-                                <div className="card-footer bg-white">
-                                    <button className="btn btn-outline-secondary w-100">Download Photo Guide</button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 )}
             </main>
             
             <footer className="bg-primary text-white p-3 text-center">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-4 text-md-start">
-                            <small>&copy; 2025 Uh-Surance</small>
-                        </div>
-                        <div className="col-md-4">
-                            <small>Customer Support: 1-800-555-0123</small>
-                        </div>
-                        <div className="col-md-4 text-md-end">
-                            <small>Terms & Privacy Policy</small>
-                        </div>
-                    </div>
-                </div>
             </footer>
         </div>
     );
