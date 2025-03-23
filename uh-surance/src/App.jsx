@@ -1,16 +1,22 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './styles/App.css'
 import WelcomePage from './pages/WelcomePage'
+import SecondPage from './pages/SecondPage'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <WelcomePage/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<WelcomePage/>}/>
+        <Route path="/second-page" element={<SecondPage/>}/>
+      </Routes>
+    </Router>
   )
 }
 

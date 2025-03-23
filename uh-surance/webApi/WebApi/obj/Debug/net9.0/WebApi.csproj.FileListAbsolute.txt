@@ -1,0 +1,168 @@
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.csproj.AssemblyReference.cache
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfoInputs.cache
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfo.cs
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.csproj.CoreCompileInputs.cache
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/marco/source/repos/MarcoVinicioGM/theNthTime/WebApi/WebApi/obj/Debug/net9.0/WebApi.sourcelink.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.csproj.AssemblyReference.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfoInputs.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfo.cs
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.csproj.CoreCompileInputs.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/src/WebApi/WebApi/obj/Debug/net9.0/WebApi.sourcelink.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.csproj.AssemblyReference.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfoInputs.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfo.cs
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.csproj.CoreCompileInputs.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.sourcelink.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/appsettings.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.staticwebassets.endpoints.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.exe
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.deps.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.runtimeconfig.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.pdb
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Azure.AI.OpenAI.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Azure.Core.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Microsoft.OpenApi.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/OpenAI.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Core.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Fonts.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Package.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Tokenization.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Tokens.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/System.ClientModel.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/System.Memory.Data.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/scopedcss/bundle/WebApi.styles.css
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.build.WebApi.props
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.pack.json
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.csproj.Up2Date
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/refint/WebApi.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.pdb
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.genruntimeconfig.cache
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/ref/WebApi.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/marco/Source/Repos/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/appsettings.Development.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/appsettings.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.staticwebassets.endpoints.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.deps.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.runtimeconfig.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/WebApi.pdb
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Azure.AI.OpenAI.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Azure.Core.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/OpenAI.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Core.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Fonts.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Package.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Tokenization.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.Tokens.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/UglyToad.PdfPig.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/System.ClientModel.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.csproj.AssemblyReference.cache
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfoInputs.cache
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.AssemblyInfo.cs
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.sourcelink.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/scopedcss/bundle/WebApi.styles.css
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.build.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.development.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.build.WebApi.props
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.csproj.Up2Date
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/refint/WebApi.dll
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.pdb
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/WebApi.genruntimeconfig.cache
+/Users/muhanadyennes/Documents/Documents - Muhanad’s MacBook Pro/Developer/uh-surance/uh-surance/webApi/WebApi/obj/Debug/net9.0/ref/WebApi.dll
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.AssemblyInfo.cs
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\appsettings.Development.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\appsettings.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\WebApi.staticwebassets.endpoints.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\WebApi.exe
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\WebApi.deps.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\WebApi.runtimeconfig.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\WebApi.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\WebApi.pdb
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Azure.AI.OpenAI.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Azure.Core.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\OpenAI.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.Core.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.DocumentLayoutAnalysis.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.Fonts.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.Package.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.Tokenization.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.Tokens.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\UglyToad.PdfPig.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\System.ClientModel.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\bin\Debug\net9.0\System.Memory.Data.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\scopedcss\bundle\WebApi.styles.css
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets.build.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets.development.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.build.WebApi.props
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets.pack.json
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.csproj.Up2Date
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\refint\WebApi.dll
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.pdb
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\WebApi.genruntimeconfig.cache
+c:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\ref\WebApi.dll
+C:\Users\marco\source\repos\myenne1\uh-surance\uh-surance\webApi\WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -1,30 +1,38 @@
-import 'react-bootstrap'
+import 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../styles/WelcomePage.css'
+import '../styles/WelcomePage.css';
+import DocumentGetter from '../components/DocumentGetter';
 
 export default function WelcomePage() {
-
     return (
         <div className="min-vh-100 d-flex flex-column">
-
-      <header className="bg-primary text-white p-4 text-center fw-bold">
-        Uh-Surance
-      </header>
-
-      <main className="flex-grow-1 p-4 container">
-        <div className="row g-4">
-          <section className="row-md-6 bg-light p-4 rounded shadow">
-            <h2 className="fw-semibold">Section 1</h2>
-            <p className="text-muted">This is some content for section 1.</p>
-          </section>
-          <section className="row-md-6 bg-light p-4 rounded shadow">
-            <h2 className="fw-semibold">Section 2</h2>
-            <p className="text-muted">This is some content for section 2.</p>
-          </section>
+            <header className="bg-primary text-white p-4 text-center fw-bold">
+                Uh-Surance
+            </header>
+            
+            <main className="flex-grow-1 d-flex align-items-start justify-content-center flex-column" style={{ paddingTop: "5vh" }}>
+                <div className="container text-center">
+                    <div className="row justify-content-center">
+                        <section className="col-md-8 bg-light p-4 rounded shadow">
+                            <h2 className="fw-semibold">Life happens fast, and when the unexpected occurs, being prepared makes all the difference.</h2>
+                            <p className="text-muted">Uh-Surance helps you take control of your insurance coverage by documenting what matters most
+                                before you need to make a claim. By uploading your insurance policy now, we'll guide you
+                                through capturing the photos you need for comprehensive protection. No more scrambling for
+                                documentation during stressful situations—let's build your digital insurance record together,
+                                starting with uploading your policy.</p>
+                        </section>
+                    </div>
+                </div>
+                <div className="container text-center mt-4">
+                    <div className="row justify-content-center">
+                        <div className="col-md-6 bg-secondary text-white p-3 rounded shadow">
+                            <DocumentGetter/>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            
+            <footer className="bg-primary text-white p-4 text-center"/>
         </div>
-      </main>
-
-      <footer className="bg-primary text-white p-4 text-center"/>
-    </div>
-    )
+    );
 }
