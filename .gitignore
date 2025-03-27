@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Sensitive settings files
+appsettings.Development.json
+appsettings.Production.json
+launchSettings.json
+*.Development.json
+*.Production.json
+
+# Environment files
+.env
+
