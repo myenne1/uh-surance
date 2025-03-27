@@ -28,7 +28,7 @@ export default function PhotosGetter() {
     };
 
     const handleFileUpload = async () => {
-        const response = await fetch('/api/policies/insurance-fields/2066f1b3-c096-4d18-84e2-9a8a8365ac76', {
+        const response = await fetch("/api/policies/insurance-fields/a3cd2e44-acf4-40b3-b192-9cf353ff1ee1", {
             method: 'GET',
         });
   

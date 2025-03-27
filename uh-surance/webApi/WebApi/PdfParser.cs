@@ -32,11 +32,11 @@ namespace WebApi
 
        public string ExtractRawText()
 {
-    // Option 1: Look for the file in multiple locations
+    //Look for the file in multiple locations
     string[] possiblePaths = new[] {
         Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Insurance.pdf"),
         Path.Combine(Directory.GetCurrentDirectory(), "Insurance.pdf"),
-        InsurancePath // Use the path passed to the constructor if available
+        InsurancePath // Use the path passed to the constructor 
     };
     
     string pdfPath = possiblePaths.FirstOrDefault(File.Exists);
