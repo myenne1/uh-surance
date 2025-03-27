@@ -26,6 +26,7 @@ dist-ssr
 # Sensitive settings files
 appsettings.Development.json
 appsettings.Production.json
+launchSettings.json
 *.Development.json
 *.Production.json
 
