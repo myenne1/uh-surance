@@ -2,9 +2,7 @@ import React, {useState, useRef} from 'react'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from 'react-router';
 
-
-
-export default function DocumentGetter() {
+export default function PolicyGetter() {
     const navigate = useNavigate()
     const [file, setFile] = useState(null)
     const [fileUploaded, setFileUploaded] = useState(false)
@@ -30,7 +28,7 @@ export default function DocumentGetter() {
         formData.append('file', file);
       
         try {
-          const response = await fetch('YOUR_UPLOAD_ENDPOINT', {
+          const response = await fetch('/api/policies/upload', {
             method: 'POST',
             body: formData,
           });
@@ -38,13 +36,17 @@ export default function DocumentGetter() {
           if (response.ok) {
             const data = await response.json();
             console.log('Upload successful:', data);
-          } else {
-            console.error('Upload failed:', response.statusText);
-          }
-        } catch (error) {
-          console.error('Error during upload:', error);
-        }
-        navigate("/second-page")
+            navigate("/summarization-page", { 
+              state: { 
+                  uploadedData: data 
+              }
+          });
+      } else {
+          console.error('Upload failed:', response.statusText);
+      }
+  } catch (error) {
+      console.error('Error during upload:', error);
+  }
     };
 
     return (

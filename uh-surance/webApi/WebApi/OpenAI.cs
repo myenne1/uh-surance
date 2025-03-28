@@ -26,10 +26,11 @@ Summarize in plain language that a non-expert would understand:";
 
         public PolicySummarizerService(IConfiguration configuration)
         {
-            _apiKey = configuration["OpenAIKey:ApiKey"]
-                ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY")
-                ?? throw new ArgumentNullException("OpenAI API key is missing");
-        }
+        _apiKey = configuration.GetValue<string>("OpenAI:ApiKey") 
+            ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+            ?? throw new ArgumentNullException(nameof(_apiKey), 
+                "OpenAI API key not found in configuration or environment variables");
+    }
 
         public async Task<string> SummarizePolicy(string filePath)
         {

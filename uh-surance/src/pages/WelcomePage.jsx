@@ -1,12 +1,12 @@
 import 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../styles/WelcomePage.css';
-import DocumentGetter from '../components/DocumentGetter';
+import PolicyGetter from '../components/PolicyGetter';
 
 export default function WelcomePage() {
     return (
         <div className="min-vh-100 d-flex flex-column">
-            <header className="bg-primary text-white p-4 text-center fw-bold">
+            <header className="bg-primary text-white p-4 text-center fw-bold fs-4">
                 Uh-Surance
             </header>
             
@@ -26,7 +26,7 @@ export default function WelcomePage() {
                 <div className="container text-center mt-4">
                     <div className="row justify-content-center">
                         <div className="col-md-6 bg-secondary text-white p-3 rounded shadow">
-                            <DocumentGetter/>
+                            <PolicyGetter/>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/App.css'
 import WelcomePage from './pages/WelcomePage'
-import SecondPage from '../webApi/WebApi/bin/SecondPage'
+import PhotosPage from './pages/PhotosPage'
+import SummarizationPage from './pages/SummarizationPage'
+import PersonalItemsPage from './pages/PersonalItemsPage'
+import DashboardPage from './pages/DashboardPage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -14,7 +17,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<WelcomePage/>}/>
-        <Route path="/second-page" element={<SecondPage/>}/>
+        <Route path="/summarization-page" element={<SummarizationPage/>}/>
+        <Route path="/photos-page" element={<PhotosPage/>}/>
+        <Route path="/personal-items-page" element={<PersonalItemsPage/>}/>
+        <Route path='/dashboard-page' element={<DashboardPage/>}/>
       </Routes>
     </Router>
   )
